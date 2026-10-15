@@ -134,5 +134,7 @@ document.addEventListener("keydown", (e) => {
     }
 })
 button.addEventListener("click", function name() {
-    close()
-})
+      modal.classList.add("hidden")
+    overly.classList.add("hidden")
+}
+)
