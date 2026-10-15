@@ -11,6 +11,7 @@ let second = document.getElementById("second")
 let modal = document.getElementById('modal')
 let overly = document.getElementById('overlay')
 let closeimg = document.getElementById("close")
+let button = document.getElementById("btn")
 let edititem = []
 
 // localstorge ga qiymat berish olish
@@ -131,4 +132,7 @@ document.addEventListener("keydown", (e) => {
         e.preventDefault()
         close()
     }
+})
+button.addEventListener("click", function name() {
+    close()
 })
